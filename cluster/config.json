@@ -1,0 +1,15 @@
+{
+"predictors_path": "/home/exacloud/gscratch/NagelLab/abcd/staff/pastore/CBCL/data/predictors",
+"outcome_path": "/home/exacloud/gscratch/NagelLab/abcd/staff/pastore/CBCL/data/additional_files",
+"output_path": "/home/exacloud/gscratch/NagelLab/abcd/staff/pastore/CBCL/data/output",
+"outcome_file": "cbcl_data.csv",
+"optional_path": "/home/exacloud/gscratch/NagelLab/abcd/staff/pastore/CBCL/data/additional_files", 
+"optional_file": "abcd_final_varlist.csv", 
+"modes": ["int", "ext"],
+"items": [false,true], 
+"include_previous_years": [true], 
+"labels": [["(0,1)","(2,3)"], ["(0,2)","(1,3)"]],
+"downsample": [true]
+}
+
+
