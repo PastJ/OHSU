@@ -27,3 +27,11 @@ Part 4: From year to year find how subjects change from none to passive, ideatio
 Part 5: Attempt to find highly correlation features or feature groupings. First, correlation heatmaps were created between all features, including a clustered heatmap/correlational heatmap. A network graph was created from the heatmap. Nodes were grouped together by the larger table they were associated with. A similar attempt was made with TNSE and UMAP feature reduction plotting. 
 
 Plots include: Heatplots (including correlational plots), Sankey Diagrams, Network Graphs, TSNE, UMAP 
+
+## Cluster (folder)
+Description: Run a random forest binary classification task on a high performance cluster. Various variations of the same files had to be computed such as accessing specific variables, down sampling, specific thresholds for variables, and others. 
+1) **config.json**; configuration file on cluster directing the various paths for grabing data and saving results.
+2) **main.py**; main python file that runs the script
+3) **main.sh**; bash file script running the main.py script on the cluster
+4) **run_workflow_wrapper.py**; wrapper function that runs a for loop for the various variations of data and file manipulation.
+5) **utilites_CBCL4.py**; all of the various classes and functions needed to get data, preprocess the data, setup data for machine learning, run model, evaluation model, and save the results. 
